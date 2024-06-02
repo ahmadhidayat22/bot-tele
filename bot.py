@@ -5,7 +5,6 @@ import command
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-
 load_dotenv()
 
 bot_token = os.getenv('BOT_TOKEN')
